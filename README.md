@@ -8,4 +8,6 @@ then any type (like Circle, Square, etc.) that has a method Area() float64 will 
 
 That means we can treat different types in the same way, as long as they follow the Shape interface.
 
-The
+The smart-devices project teaches the following:
+Create multiple interfaces that then use interface composition.
+Polymorphism: one function UseDevices() could be used for many devices.
